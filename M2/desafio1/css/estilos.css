@@ -1,0 +1,42 @@
+@font-face {
+  font-family: MulishRegular;
+  src: url(../fonts/Mulish-Regular.ttf);
+}
+@font-face {
+  font-family: MulishBold;
+  src: url(../fonts/Mulish-Bold.ttf);
+}
+h1 {
+  margin-top: 1em;
+  font-size: 65.33333333333333px;
+  font-family: MulishBold;
+  color: #04146c;
+  overflow: hidden;
+}
+
+h2 {
+  margin-top: 10px;
+  font-family: MulishBold;
+  font-size: 40px;
+  color: #0a2ff1;
+}
+h3 {
+  font-size: 24px;
+  color: #04146c;
+}
+p {
+  font-family: "MulishRegular";
+  font-size: 24px;
+  color: #04146c;
+}
+img {
+  width: 50%;
+}
+.no-hover {
+  width: auto;
+  margin: auto;
+}
+.no-hover:hover {
+  background-color: white;
+  color: black;
+}
