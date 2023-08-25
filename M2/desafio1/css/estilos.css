@@ -33,10 +33,18 @@ img {
   width: 50%;
 }
 .no-hover {
+  border-color: #0a2ff1;
+  color: #04146c;
   width: auto;
   margin: auto;
+  font-size: 24px;
 }
 .no-hover:hover {
   background-color: white;
   color: black;
+}
+
+.alto-caja {
+  height: 70vh;
+  margin-bottom: 1px;
 }
