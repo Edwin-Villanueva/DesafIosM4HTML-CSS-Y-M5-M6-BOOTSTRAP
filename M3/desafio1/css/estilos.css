@@ -1,0 +1,41 @@
+@font-face {
+  font-family: MulishRegular;
+  src: url(../fonts/Mulish-Regular.ttf);
+}
+@font-face {
+  font-family: MulishBold;
+  src: url(../fonts/Mulish-Bold.ttf);
+}
+@font-face {
+  font-family: "MulishItalic";
+  src: url(../fonts/Mulish-Italic.ttf);
+}
+@font-face {
+  font-family: MulishSB;
+  src: url(../fonts/Mulish-SemiBold.ttf);
+}
+.enviar {
+  font-family: "MulishBold";
+  font-size: 24px;
+  background-color: #5974ff;
+}
+.input-simil {
+  border-color: #8a9af1;
+}
+.label-simil {
+  font-family: "MulishSB";
+  font-size: 24px;
+  color: #04146c;
+}
+.aclaracion {
+  color: #04146c;
+  font-size: 17.333333333333332px;
+  font-family: "MulishItalic";
+}
+.check {
+  font-size: 24px;
+}
+.c-label {
+  color: #04146c;
+  font-family: "MulishRegular";
+}
