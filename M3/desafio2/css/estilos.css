@@ -1,0 +1,50 @@
+@font-face {
+  font-family: SourceBlack;
+  src: url(../fonts/SourceSans-Black.ttf);
+}
+@font-face {
+  font-family: SourceRegular;
+  src: url(../fonts/SourceSans-Regular.ttf);
+}
+@font-face {
+  font-family: SourceItalic;
+  src: url(../fonts/SourceSans-Italic.ttf);
+}
+img {
+  width: 80%;
+}
+
+h1 {
+  font-family: "SourceBlack";
+  color: #04146c;
+  font-size: 82.66666666666666px;
+}
+p {
+  font-family: "SourceRegular";
+  color: #04146c;
+  font-size: 21.333333333333332px;
+}
+button {
+  width: auto !important;
+  font-family: "SourceRegular";
+  font-variant: small-caps;
+  width: 150px;
+  font-size: 18.666666666666664px;
+  color: white;
+  background-color: #04146c;
+}
+span {
+  font-size: 21.333333333333332px;
+  font-family: "SourceItalic";
+}
+
+@media screen and (max-width: 768px) {
+  img {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  img {
+    height: 350px;
+  }
+}
